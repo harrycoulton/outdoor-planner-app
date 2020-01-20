@@ -1,0 +1,22 @@
+
+.weatherTile {
+    width: 40%; 
+    padding: 15px;
+    margin: 20px; 
+    border: 2px solid black; 
+    border-radius: 25px;
+    background: #000000a1;
+    .titleIcon {
+        display: flex;
+        justify-content: space-around;
+        i {
+            font-size: 3rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+    h3, p, i {
+        color: #ffffff;
+    }
+}

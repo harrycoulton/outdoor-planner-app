@@ -1,0 +1,16 @@
+
+
+.locationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    .textInput, .dateInput {
+        width: 50%;
+        font-size: 1.4rem;
+    }
+}
+.errorMsg {
+    color: red;
+}
